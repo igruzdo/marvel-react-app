@@ -15,7 +15,6 @@ class RandomChar extends Component {
 
     componentDidMount() {
         this.updateChar()
-        console.log('componentDidMount')
     }
 
     marvelService = new MarvelService();
